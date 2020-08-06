@@ -1,6 +1,7 @@
 package com.in28minutes.springmvc.login;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,8 +13,8 @@ public class LoginController {
 		return "login";
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String handleLoginResquest(@RequestParam("name") String name) {
-		System.out.println("NAME --- > "+name);
+	public String handleLoginResquest(@RequestParam("name") String name, ModelMap model) {
+		model.put("name1", name);
 		return "welcome";
 	}
 }
