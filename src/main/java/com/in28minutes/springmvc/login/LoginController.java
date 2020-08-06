@@ -13,8 +13,10 @@ public class LoginController {
 		return "login";
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String handleLoginResquest(@RequestParam("name") String name, ModelMap model) {
+	public String handleLoginResquest(@RequestParam("name") String name,
+			@RequestParam("password") String password, ModelMap model) {
 		model.put("name1", name);
+		model.put("password1", password);
 		return "welcome";
 	}
 }
