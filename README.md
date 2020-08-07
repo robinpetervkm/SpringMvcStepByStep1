@@ -1,5 +1,5 @@
 # SpringMvcStepByStep1Spring MVC Tutorial for Beginners
-Welcome to our Course on Spring MVC. Go to Step wise details to understand all the concepts you would learn in this course. We have all the code at the end of each step in (Step01.md, Step02.md, Step37.md). Also present are some zip files with code at the end of some steps(Step07.zip to Step37.zip).
+
 
 The First 7 Steps of this course are available for free on YouTube.
 https://www.youtube.com/watch?v=BjNhGaZDr0Y
@@ -92,10 +92,7 @@ Use same TodoController for both updates and new todo
 Functionality to mark a Todo as complete
 Future Things To Do
 Unit Tests - WTF - why are they not here in the first set?
-About in28Minutes
-At in28Minutes, we ask ourselves one question everyday
 
 How do we create more amazing course experiences? We use 80-20 Rule. We discuss 20% things used 80% of time in depth.
 
-We are creating amazing learning experiences for learning Spring Boot with AWS, Azure, GCP, Docker, Kubernetes and Full Stack. 300,000 Learners rely on our expertise. Find out more....
 
