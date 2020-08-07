@@ -31,7 +31,8 @@ public class TodoService {
 		return filteredTodos;
 	}
 
-	public void addTodo(String name, String desc, Date targetDate, boolean isDone) {
+	public void addTodo(String name, String desc, Date targetDate,
+			boolean isDone) {
 		todos.add(new Todo(++todoCount, name, desc, targetDate, isDone));
 	}
 
